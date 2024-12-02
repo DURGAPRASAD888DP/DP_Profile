@@ -1,0 +1,31 @@
+h2{
+    color: rgb(175, 15, 15);
+    
+}
+
+h3{
+    color:rgb(223, 76, 9);
+}
+button{
+    color:rgb(5, 175, 70);
+    background-color: white;
+}
+
+p{
+    color:black;
+}
+li{
+    color:black;
+}
+h1{
+    text-align: center;
+    text-decoration: wavy;
+}
+body{
+    background: #16A085;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+}
