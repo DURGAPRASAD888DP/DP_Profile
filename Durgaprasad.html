@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DURGAPRASAD_PORTFOLIO</title>
+    <link rel="stylesheet" href="DPStyle.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- Desktop Navigation -->
+    <nav id="Desktop-Nav">
+        <div class="logo">Durga Prasad Oduri</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Hamburger Navigation -->
+    <nav id="hamburger-Nav">
+        <div class="logo">DurgaPrasad</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-Icon" onclick="toggleMenu()"> 
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./Assets/Durga_prasad_Picture_new.jpg" alt="Durga Prasad Oduri Profile Picture" />
+        </div>
+        <div class="section_text">
+            <h1 class="title">Durga Prasad Oduri</h1>
+            <p class="section_text_p2"></p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assets/Durga.html')">Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='//www.linkedin.com/in/durgaprasadoduri888/'"/>
+                <img src="./Assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='//github.com/DURGAPRASAD888DP/DurgaPrasad-Portfolio'"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./Assets/WhatsApp Image 2024-12-01 at 16.51.03_bb18bebb.jpg" alt="Profile Picture" class="about-pic" />
+            </div>
+            <div class="text-container">
+                <p style="color: #333333; font-weight: bold; margin-bottom: 20px;">
+                    Hello! I am Durga Prasad, an enthusiastic Data Engineer with relevant experience in analyzing data, optimizing workflows, and ensuring data-driven insights for decision-making. I actively employ tools like Tableau, MySQL, and Postman for data analysis and reporting, leveraging my technical skills to build scalable and efficient systems.
+                </p>
+                <p style="color: #333333; font-weight: bold; margin-bottom: 20px;">
+                    I have a strong educational background with a Bachelor's in Technology and a Master's in Science. Throughout my career, I’ve contributed to diverse projects, ensuring quality and efficiency in software development. My experience includes collaborating with developers to align automated tests with development cycles, implementing robust scripts to enhance CI/CD pipelines, and automating API and cross-browser testing.
+                </p>
+                <p style="color: #333333; font-weight: bold; margin-bottom: 20px;">
+                    I worked as Automation Test Engineer with over three years of professional experience, my expertise spans frontend development with technologies like HTML, CSS, and JavaScript, as well as automation testing tools such as Selenium, Java, and TOSCA.
+                </p>
+                <p style="color: #333333; font-weight: bold; margin-bottom: 20px;">
+                    Beyond work, I love exploring new technologies, building projects, and expanding my skill set. I'm excited to bring my technical expertise, passion for innovation, and dedication to quality to every challenge I undertake.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <p class="section_text_p1">Explore My Experience</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <!-- Skills Section -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Skills</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>Java</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>Python</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>HTML</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>CSS</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>JavaScript</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>Bootstrap</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>Selenium</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>TOSCA</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>AWS</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>GCP</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>Tableau</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>TensorFlow</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./Assets/checkmark.png" alt="Experience Icon" class="icon" />
+                        <div>
+                            <h3>Keras</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:durgaprasadoduri888@gmail.com">durgaprasadoduri888@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/durgaprasadoduri888/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
